@@ -16,9 +16,15 @@ public class TransportInformation {
         return wheelsCount;
     }
 
-    void updateTyre() {}
-    void checkEngine() {
+    public void updateTyre() {
+        System.out.println("Меняем покрышку");
     }
-    void checkTrailer() {
+
+    public void checkEngine() {
+        System.out.println("Проверяем двигатель");
+    }
+
+    public void checkTrailer() {
+        System.out.println("Проверяем прицеп");
     }
 }

@@ -14,12 +14,12 @@ public class Main {
         Bicycle bicycle2 = new Bicycle("bicycle1", 2);
 
         ServiceStation station = new ServiceStation();
-        station.printTransport(car);
-        station.printTransport(car2);
-        station.printTransport(truck);
-        station.printTransport(truck2);
-        station.printTransport(bicycle);
-        station.printTransport(bicycle2);
+        station.check(car);
+        station.check(car2);
+        station.check(truck);
+        station.check(truck2);
+        station.check(bicycle);
+        station.check(bicycle2);
 
     }
 }
